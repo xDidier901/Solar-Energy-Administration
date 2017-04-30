@@ -16,5 +16,10 @@ namespace Solar_Energy_Administration
         {
             InitializeComponent();
         }
+
+        private void Introduction_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

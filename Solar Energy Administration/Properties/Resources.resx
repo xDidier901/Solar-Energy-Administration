@@ -124,10 +124,19 @@
   <data name="Sun Gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sun Gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="prueba1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prueba1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sun1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="spaceship cartoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spaceship cartoon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Washer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Washer.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

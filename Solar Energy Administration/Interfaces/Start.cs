@@ -9,6 +9,8 @@ namespace Solar_Energy_Administration
         {
             InitializeComponent();
             label1.Parent = pictureBox1;
+            pictureBox2.Parent = pictureBox1;
+            pictureBox2.BackColor = Color.Transparent;
             label1.BackColor = Color.Transparent;
             videoPlayer.URL = @"C:\Users\Didier Valdez\Desktop\PA\Solar Energy Administration\Video.mp4";
             videoPlayer.uiMode = "none";
@@ -41,6 +43,17 @@ namespace Solar_Energy_Administration
             {
                 videoPlayer.Visible = false;
             }
+        }
+
+        private void StartScreen_Load(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void btnData_Click(object sender, System.EventArgs e)
+        {
+            this.Hide();
+            new Introduction().Show();
         }
     }
 }
