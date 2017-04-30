@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F83A11B1-8BF8-4680-AC30-DD6030AC1BB0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Solar_Energy_Administration</RootNamespace>
+    <AssemblyName>Solar Energy Administration</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Calculus.cs" />
+    <Compile Include="Interfaces\Benefits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Benefits.Designer.cs">
+      <DependentUpon>Benefits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Calculations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Calculations.Designer.cs">
+      <DependentUpon>Calculations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Introduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Introduction.Designer.cs">
+      <DependentUpon>Introduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ChooseObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\ChooseObjects.Designer.cs">
+      <DependentUpon>ChooseObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Interfaces\Benefits.resx">
+      <DependentUpon>Benefits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Calculations.resx">
+      <DependentUpon>Calculations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Introduction.resx">
+      <DependentUpon>Introduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\ChooseObjects.resx">
+      <DependentUpon>ChooseObjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spaceship GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun Gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\less.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staticPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staticSub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clickPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clickSub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoverPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoverSub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Earth GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Earth GIF1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tele png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aire png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\micro png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Washer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refri png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Astronaut GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoIntroduction.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Astronaut GIF1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
