@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edge.solergy.MainActivity"
+    android:background="@drawable/start_background"
+    android:elevation="0dp"
+    >
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        android:src="@drawable/space_app_logo"
+        android:id="@+id/space"
+        android:layout_alignParentTop="true"
+        android:elevation="2dp"
+        />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sun_gif"
+
+        android:layout_above="@+id/space"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="SOLAR ENERGY ADMINISTRATION"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_below="@+id/space"
+
+ />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        app:fabSize="normal"
+        android:elevation="2dp"
+        android:src="@android:drawable/ic_media_play"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="showIntroduction"
+        android:layout_marginEnd="22dp" />
+
+
+
+
+</RelativeLayout>

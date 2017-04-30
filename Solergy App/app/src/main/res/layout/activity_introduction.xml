@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_background"
+    tools:context="com.edge.solergy.Introduction">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="INTRODUCTION VIDEO\n WOULD BE HERE"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_above="@+id/appCompatImageView"
+        android:layout_alignEnd="@+id/appCompatImageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="mostrarObjetos"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp" />
+
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/space_app_logo"
+        android:id="@+id/appCompatImageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
