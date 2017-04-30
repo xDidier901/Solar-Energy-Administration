@@ -63,39 +63,9 @@ namespace Solar_Energy_Administration.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Earth_GIF {
+        internal static System.Drawing.Bitmap Spaceship_GIF {
             get {
-                object obj = ResourceManager.GetObject("Earth GIF", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap prueba1 {
-            get {
-                object obj = ResourceManager.GetObject("prueba1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap spaceship_cartoon {
-            get {
-                object obj = ResourceManager.GetObject("spaceship cartoon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sun {
-            get {
-                object obj = ResourceManager.GetObject("Sun", resourceCulture);
+                object obj = ResourceManager.GetObject("Spaceship GIF", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,26 +76,6 @@ namespace Solar_Energy_Administration.Properties {
         internal static System.Drawing.Bitmap Sun_Gif {
             get {
                 object obj = ResourceManager.GetObject("Sun Gif", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sun1 {
-            get {
-                object obj = ResourceManager.GetObject("Sun1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Washer {
-            get {
-                object obj = ResourceManager.GetObject("Washer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -8,12 +8,15 @@ namespace Solar_Energy_Administration
         public StartScreen()
         {
             InitializeComponent();
-            label1.Parent = pictureBox1;
-            pictureBox2.Parent = pictureBox1;
-            pictureBox2.BackColor = Color.Transparent;
+            pictureBox3.BackColor = Color.Transparent;
+            label1.Parent = pictureBox3;
+            label2.Parent = pictureBox3;
+            label3.Parent = pictureBox3;
             label1.BackColor = Color.Transparent;
-            videoPlayer.URL = @"C:\Users\Didier Valdez\Desktop\PA\Solar Energy Administration\Video.mp4";
-            videoPlayer.uiMode = "none";
+            label2.BackColor = Color.Transparent;
+            label3.BackColor = Color.Transparent;
+            //videoPlayer.URL = @"C:\Users\Didier Valdez\Desktop\PA\Solar Energy Administration\Video.mp4";
+            //videoPlayer.uiMode = "none";
         }
 
         private void btnData_MouseEnter(object sender, System.EventArgs e)
@@ -39,10 +42,10 @@ namespace Solar_Energy_Administration
 
         private void videoPlayer_StatusChange(object sender, System.EventArgs e)
         {
-           if (videoPlayer.playState == WMPLib.WMPPlayState.wmppsMediaEnded)
-            {
-                videoPlayer.Visible = false;
-            }
+            //if (videoPlayer.playState == WMPLib.WMPPlayState.wmppsMediaEnded)
+            // {
+            //     videoPlayer.Visible = false;
+            // }
         }
 
         private void StartScreen_Load(object sender, System.EventArgs e)

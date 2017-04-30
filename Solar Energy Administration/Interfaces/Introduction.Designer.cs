@@ -35,7 +35,6 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Solar_Energy_Administration.Properties.Resources.Earth_GIF;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(702, 721);
@@ -49,9 +48,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(702, 721);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Introduction";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Introduction";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Introduction_FormClosing);
             this.Load += new System.EventHandler(this.Introduction_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

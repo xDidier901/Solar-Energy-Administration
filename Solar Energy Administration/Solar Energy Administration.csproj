@@ -46,40 +46,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Introduction.cs">
+    <Compile Include="Interfaces\Introduction.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Introduction.Designer.cs">
+    <Compile Include="Interfaces\Introduction.Designer.cs">
       <DependentUpon>Introduction.cs</DependentUpon>
     </Compile>
-    <Compile Include="Start.cs">
+    <Compile Include="Interfaces\Start.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Start.Designer.cs">
+    <Compile Include="Interfaces\Start.Designer.cs">
       <DependentUpon>Start.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Introduction.resx">
+    <EmbeddedResource Include="Interfaces\Introduction.resx">
       <DependentUpon>Introduction.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Start.resx">
+    <EmbeddedResource Include="Interfaces\Start.resx">
       <DependentUpon>Start.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -88,18 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sun.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sun.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sun Gif.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\spaceship cartoon.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxWMPLib">
@@ -121,13 +109,10 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Washer.gif" />
+    <None Include="Resources\Spaceship GIF.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\prueba1.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Earth GIF.gif" />
+    <None Include="Resources\Sun Gif.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

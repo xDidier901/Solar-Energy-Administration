@@ -21,5 +21,10 @@ namespace Solar_Energy_Administration
         {
 
         }
+
+        private void Introduction_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
