@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Solar_Energy_Administration.Interfaces
 {
-    public partial class Lista : Form
+    public partial class ChooseObjects : Form
     {
         int hoursTV = 0, hours2 = 0, hours3 = 0, hours4 = 0, hours5 = 0, hours6 = 0, hours7 = 0;
 
@@ -102,9 +102,8 @@ namespace Solar_Energy_Administration.Interfaces
 
         private void btnReturn_Click(object sender, EventArgs e)
         {
-            this.Dispose();
-            Introduction obj = new Introduction();
-            obj.Show();
+            this.Hide();
+            new Introduction().Show();
         }
 
         private void pictureBoxSubsTV_MouseEnter(object sender, EventArgs e)
@@ -177,6 +176,45 @@ namespace Solar_Energy_Administration.Interfaces
             pictureBoxSubsMicro.Image = Properties.Resources.staticSub;
         }
 
+        private void Lista_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnReturn_MouseLeave(object sender, EventArgs e)
+        {
+            btnReturn.BackColor = Color.Indigo;
+            btnReturn.ForeColor = Color.White;
+            btnReturn.Font = new Font(btnReturn.Font, FontStyle.Regular);
+        }
+
+        private void btnReturn_MouseEnter(object sender, EventArgs e)
+        {
+            btnReturn.BackColor = Color.White;
+            btnReturn.ForeColor = Color.Indigo;
+            btnReturn.Font = new Font(btnReturn.Font, FontStyle.Bold);
+        }
+
+        private void btnCalcular_MouseLeave(object sender, EventArgs e)
+        {
+            btnCalcular.BackColor = Color.Indigo;
+            btnCalcular.ForeColor = Color.White;
+            btnCalcular.Font = new Font(btnCalcular.Font, FontStyle.Regular);
+        }
+
+        private void btnCalcular_MouseEnter(object sender, EventArgs e)
+        {
+            btnCalcular.BackColor = Color.White;
+            btnCalcular.ForeColor = Color.Indigo;
+            btnCalcular.Font = new Font(btnCalcular.Font, FontStyle.Bold);
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            Hide();
+            new Calculations().Show();
+        }
+
         private void pictureBoxSubsAir_Click(object sender, EventArgs e)
         {
             pictureBoxSubsAir.Image = Properties.Resources.clickSub;
@@ -242,9 +280,35 @@ namespace Solar_Energy_Administration.Interfaces
             }
         }
 
-        public Lista()
+        public ChooseObjects()
         {
             InitializeComponent();
+            hora1.Parent = pictureBox1;
+            hora1.BackColor = Color.Transparent;
+            hora2.Parent = pictureBox1;
+            hora2.BackColor = Color.Transparent;
+            hora3.Parent = pictureBox1;
+            hora3.BackColor = Color.Transparent;
+            hora4.Parent = pictureBox1;
+            hora4.BackColor = Color.Transparent;
+            hora5.Parent = pictureBox1;
+            hora5.BackColor = Color.Transparent;
+            hora6.Parent = pictureBox1;
+            hora6.BackColor = Color.Transparent;
+
+            labelTitulo.Parent= pictureBox1;
+            labelSubtitulo.Parent = pictureBox1;
+
+            pictureBoxAddAir.Parent = pictureBox1;
+            pictureBoxAddAir.BackColor = Color.Transparent;
+
+            btnReturn.BackColor = Color.Indigo;
+            btnReturn.ForeColor = Color.White;
+            btnReturn.Font = new Font(btnReturn.Font, FontStyle.Regular);
+
+            btnCalcular.BackColor = Color.Indigo;
+            btnCalcular.ForeColor = Color.White;
+            btnCalcular.Font = new Font(btnCalcular.Font, FontStyle.Regular);
         }
     }
 }

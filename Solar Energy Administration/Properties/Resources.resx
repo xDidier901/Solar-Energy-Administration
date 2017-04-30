@@ -118,34 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="staticSub" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\staticSub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sun Gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sun Gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Spaceship GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Spaceship GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="less" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\less.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="staticPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\staticPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clickPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\clickPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Earth GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="clickSub" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clickSub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fondo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sun Gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sun Gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hoverPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hoverPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Washer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Washer.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aire png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aire png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Astronaut GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Astronaut GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondo42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo42.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hoverSub" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hoverSub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pc png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pc png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staticPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staticPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refri png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refri png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spaceship GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spaceship GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tele png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tele png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondo41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staticSub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staticSub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondo43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo43.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="micro png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\micro png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondoIntroduction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondoIntroduction.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth GIF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth GIF1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clickPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clickPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Astronaut GIF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Astronaut GIF1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
