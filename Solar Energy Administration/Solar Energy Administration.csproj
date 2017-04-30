@@ -109,6 +109,8 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Roboto-Regular.ttf" />
+    <None Include="Resources\Roboto.zip" />
     <None Include="Resources\Spaceship GIF.gif" />
   </ItemGroup>
   <ItemGroup>

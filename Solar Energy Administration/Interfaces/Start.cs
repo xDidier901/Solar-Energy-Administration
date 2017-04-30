@@ -8,6 +8,9 @@ namespace Solar_Energy_Administration
         public StartScreen()
         {
             InitializeComponent();
+            btnData.BackColor = Color.Indigo;
+            btnData.ForeColor = Color.White;
+            btnData.Font = new Font(btnData.Font, FontStyle.Bold);
             pictureBox3.BackColor = Color.Transparent;
             label1.Parent = pictureBox3;
             label2.Parent = pictureBox3;
@@ -21,16 +24,16 @@ namespace Solar_Energy_Administration
 
         private void btnData_MouseEnter(object sender, System.EventArgs e)
         {
-            btnData.BackColor = Color.Indigo;
-            btnData.ForeColor = Color.White;
-            btnData.Font = new Font(btnData.Font, FontStyle.Bold);
+            btnData.BackColor = Color.White;
+            btnData.ForeColor = Color.Indigo;
+            btnData.Font = new Font(btnData.Font, FontStyle.Regular);
         }
 
         private void btnData_MouseLeave(object sender, System.EventArgs e)
         {
-            btnData.BackColor = Color.White;
-            btnData.ForeColor = Color.Indigo;
-            btnData.Font = new Font(btnData.Font, FontStyle.Regular);
+            btnData.BackColor = Color.Indigo;
+            btnData.ForeColor = Color.White;
+            btnData.Font = new Font(btnData.Font, FontStyle.Bold);
         }
 
         private void btnData_MouseDown(object sender, MouseEventArgs e)
@@ -38,6 +41,7 @@ namespace Solar_Energy_Administration
             btnData.BackColor = Color.Indigo;
             btnData.ForeColor = Color.White;
             btnData.Font = new Font(btnData.Font, FontStyle.Bold);
+
         }
 
         private void videoPlayer_StatusChange(object sender, System.EventArgs e)

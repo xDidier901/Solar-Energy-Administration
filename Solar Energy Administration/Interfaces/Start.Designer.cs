@@ -57,7 +57,7 @@
             this.btnData.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnData.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
             this.btnData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnData.Font = new System.Drawing.Font("OCR A Extended", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnData.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnData.Location = new System.Drawing.Point(125, 641);
             this.btnData.Name = "btnData";
             this.btnData.Size = new System.Drawing.Size(175, 83);
@@ -97,12 +97,12 @@
             this.label3.Text = "Administration";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox2
+            // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::Solar_Energy_Administration.Properties.Resources.Spaceship_GIF;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox2";
+            this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(432, 754);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 9;
