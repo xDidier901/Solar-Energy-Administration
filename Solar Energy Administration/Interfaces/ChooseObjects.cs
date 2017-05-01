@@ -212,7 +212,7 @@ namespace Solar_Energy_Administration.Interfaces
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             int noTv = Convert.ToInt32(labelTV.Text);
-            MessageBox.Show(noTv.ToString());
+          //  MessageBox.Show(noTv.ToString());
             int horasTv = Convert.ToInt32(tbHoursTV.Text);
             int noPc = Convert.ToInt32(labelPC.Text);
             int horasPc = Convert.ToInt32(tbHoursPC.Text);
